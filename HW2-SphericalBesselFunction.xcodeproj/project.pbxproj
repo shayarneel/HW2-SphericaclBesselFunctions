@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE128BD27AB48A700C70528 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE128BC27AB48A700C70528 /* Tests_iOS.swift */; };
+		2BE128BF27AB48A700C70528 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE128BE27AB48A700C70528 /* Tests_iOSLaunchTests.swift */; };
+		2BE128C927AB48A700C70528 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE128C827AB48A700C70528 /* Tests_macOS.swift */; };
+		2BE128CB27AB48A700C70528 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE128CA27AB48A700C70528 /* Tests_macOSLaunchTests.swift */; };
+		2BE128CC27AB48A700C70528 /* HW2_SphericalBesselFunctionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE128A427AB48A400C70528 /* HW2_SphericalBesselFunctionApp.swift */; };
+		2BE128CD27AB48A700C70528 /* HW2_SphericalBesselFunctionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE128A427AB48A400C70528 /* HW2_SphericalBesselFunctionApp.swift */; };
+		2BE128CE27AB48A700C70528 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE128A527AB48A400C70528 /* ContentView.swift */; };
+		2BE128CF27AB48A700C70528 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE128A527AB48A400C70528 /* ContentView.swift */; };
+		2BE128D027AB48A700C70528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE128A627AB48A700C70528 /* Assets.xcassets */; };
+		2BE128D127AB48A700C70528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE128A627AB48A700C70528 /* Assets.xcassets */; };
+		2BE128E127AB491700C70528 /* Spherical Bessel Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE128E027AB491700C70528 /* Spherical Bessel Functions.swift */; };
+		2BE128E227AB491700C70528 /* Spherical Bessel Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE128E027AB491700C70528 /* Spherical Bessel Functions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BE128B927AB48A700C70528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE1289F27AB48A400C70528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE128AA27AB48A700C70528;
+			remoteInfo = "HW2-SphericalBesselFunction (iOS)";
+		};
+		2BE128C527AB48A700C70528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE1289F27AB48A400C70528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE128B027AB48A700C70528;
+			remoteInfo = "HW2-SphericalBesselFunction (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BE128A427AB48A400C70528 /* HW2_SphericalBesselFunctionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2_SphericalBesselFunctionApp.swift; sourceTree = "<group>"; };
+		2BE128A527AB48A400C70528 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BE128A627AB48A700C70528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BE128AB27AB48A700C70528 /* HW2-SphericalBesselFunction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW2-SphericalBesselFunction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE128B127AB48A700C70528 /* HW2-SphericalBesselFunction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW2-SphericalBesselFunction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE128B327AB48A700C70528 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2BE128B827AB48A700C70528 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE128BC27AB48A700C70528 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		2BE128BE27AB48A700C70528 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		2BE128C427AB48A700C70528 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE128C827AB48A700C70528 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		2BE128CA27AB48A700C70528 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		2BE128E027AB491700C70528 /* Spherical Bessel Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spherical Bessel Functions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE128A827AB48A700C70528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE128AE27AB48A700C70528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE128B527AB48A700C70528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE128C127AB48A700C70528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE1289E27AB48A400C70528 = {
+			isa = PBXGroup;
+			children = (
+				2BE128A327AB48A400C70528 /* Shared */,
+				2BE128B227AB48A700C70528 /* macOS */,
+				2BE128BB27AB48A700C70528 /* Tests iOS */,
+				2BE128C727AB48A700C70528 /* Tests macOS */,
+				2BE128AC27AB48A700C70528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE128A327AB48A400C70528 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2BE128A427AB48A400C70528 /* HW2_SphericalBesselFunctionApp.swift */,
+				2BE128A527AB48A400C70528 /* ContentView.swift */,
+				2BE128E027AB491700C70528 /* Spherical Bessel Functions.swift */,
+				2BE128A627AB48A700C70528 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2BE128AC27AB48A700C70528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE128AB27AB48A700C70528 /* HW2-SphericalBesselFunction.app */,
+				2BE128B127AB48A700C70528 /* HW2-SphericalBesselFunction.app */,
+				2BE128B827AB48A700C70528 /* Tests iOS.xctest */,
+				2BE128C427AB48A700C70528 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE128B227AB48A700C70528 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2BE128B327AB48A700C70528 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		2BE128BB27AB48A700C70528 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2BE128BC27AB48A700C70528 /* Tests_iOS.swift */,
+				2BE128BE27AB48A700C70528 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		2BE128C727AB48A700C70528 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2BE128C827AB48A700C70528 /* Tests_macOS.swift */,
+				2BE128CA27AB48A700C70528 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE128AA27AB48A700C70528 /* HW2-SphericalBesselFunction (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE128D427AB48A700C70528 /* Build configuration list for PBXNativeTarget "HW2-SphericalBesselFunction (iOS)" */;
+			buildPhases = (
+				2BE128A727AB48A700C70528 /* Sources */,
+				2BE128A827AB48A700C70528 /* Frameworks */,
+				2BE128A927AB48A700C70528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW2-SphericalBesselFunction (iOS)";
+			productName = "HW2-SphericalBesselFunction (iOS)";
+			productReference = 2BE128AB27AB48A700C70528 /* HW2-SphericalBesselFunction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BE128B027AB48A700C70528 /* HW2-SphericalBesselFunction (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE128D727AB48A700C70528 /* Build configuration list for PBXNativeTarget "HW2-SphericalBesselFunction (macOS)" */;
+			buildPhases = (
+				2BE128AD27AB48A700C70528 /* Sources */,
+				2BE128AE27AB48A700C70528 /* Frameworks */,
+				2BE128AF27AB48A700C70528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW2-SphericalBesselFunction (macOS)";
+			productName = "HW2-SphericalBesselFunction (macOS)";
+			productReference = 2BE128B127AB48A700C70528 /* HW2-SphericalBesselFunction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BE128B727AB48A700C70528 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE128DA27AB48A700C70528 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				2BE128B427AB48A700C70528 /* Sources */,
+				2BE128B527AB48A700C70528 /* Frameworks */,
+				2BE128B627AB48A700C70528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE128BA27AB48A700C70528 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 2BE128B827AB48A700C70528 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2BE128C327AB48A700C70528 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE128DD27AB48A700C70528 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				2BE128C027AB48A700C70528 /* Sources */,
+				2BE128C127AB48A700C70528 /* Frameworks */,
+				2BE128C227AB48A700C70528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE128C627AB48A700C70528 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 2BE128C427AB48A700C70528 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE1289F27AB48A400C70528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2BE128AA27AB48A700C70528 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					2BE128B027AB48A700C70528 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					2BE128B727AB48A700C70528 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2BE128AA27AB48A700C70528;
+					};
+					2BE128C327AB48A700C70528 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2BE128B027AB48A700C70528;
+					};
+				};
+			};
+			buildConfigurationList = 2BE128A227AB48A400C70528 /* Build configuration list for PBXProject "HW2-SphericalBesselFunction" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE1289E27AB48A400C70528;
+			productRefGroup = 2BE128AC27AB48A700C70528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE128AA27AB48A700C70528 /* HW2-SphericalBesselFunction (iOS) */,
+				2BE128B027AB48A700C70528 /* HW2-SphericalBesselFunction (macOS) */,
+				2BE128B727AB48A700C70528 /* Tests iOS */,
+				2BE128C327AB48A700C70528 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE128A927AB48A700C70528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE128D027AB48A700C70528 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE128AF27AB48A700C70528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE128D127AB48A700C70528 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE128B627AB48A700C70528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE128C227AB48A700C70528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE128A727AB48A700C70528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE128CE27AB48A700C70528 /* ContentView.swift in Sources */,
+				2BE128CC27AB48A700C70528 /* HW2_SphericalBesselFunctionApp.swift in Sources */,
+				2BE128E127AB491700C70528 /* Spherical Bessel Functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE128AD27AB48A700C70528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE128CF27AB48A700C70528 /* ContentView.swift in Sources */,
+				2BE128CD27AB48A700C70528 /* HW2_SphericalBesselFunctionApp.swift in Sources */,
+				2BE128E227AB491700C70528 /* Spherical Bessel Functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE128B427AB48A700C70528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE128BF27AB48A700C70528 /* Tests_iOSLaunchTests.swift in Sources */,
+				2BE128BD27AB48A700C70528 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE128C027AB48A700C70528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE128CB27AB48A700C70528 /* Tests_macOSLaunchTests.swift in Sources */,
+				2BE128C927AB48A700C70528 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BE128BA27AB48A700C70528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE128AA27AB48A700C70528 /* HW2-SphericalBesselFunction (iOS) */;
+			targetProxy = 2BE128B927AB48A700C70528 /* PBXContainerItemProxy */;
+		};
+		2BE128C627AB48A700C70528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE128B027AB48A700C70528 /* HW2-SphericalBesselFunction (macOS) */;
+			targetProxy = 2BE128C527AB48A700C70528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BE128D227AB48A700C70528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BE128D327AB48A700C70528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2BE128D527AB48A700C70528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.HW2-SphericalBesselFunction";
+				PRODUCT_NAME = "HW2-SphericalBesselFunction";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BE128D627AB48A700C70528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.HW2-SphericalBesselFunction";
+				PRODUCT_NAME = "HW2-SphericalBesselFunction";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE128D827AB48A700C70528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.HW2-SphericalBesselFunction";
+				PRODUCT_NAME = "HW2-SphericalBesselFunction";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2BE128D927AB48A700C70528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.HW2-SphericalBesselFunction";
+				PRODUCT_NAME = "HW2-SphericalBesselFunction";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2BE128DB27AB48A700C70528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW2-SphericalBesselFunction (iOS)";
+			};
+			name = Debug;
+		};
+		2BE128DC27AB48A700C70528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW2-SphericalBesselFunction (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE128DE27AB48A700C70528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "HW2-SphericalBesselFunction (macOS)";
+			};
+			name = Debug;
+		};
+		2BE128DF27AB48A700C70528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "HW2-SphericalBesselFunction (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE128A227AB48A400C70528 /* Build configuration list for PBXProject "HW2-SphericalBesselFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE128D227AB48A700C70528 /* Debug */,
+				2BE128D327AB48A700C70528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE128D427AB48A700C70528 /* Build configuration list for PBXNativeTarget "HW2-SphericalBesselFunction (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE128D527AB48A700C70528 /* Debug */,
+				2BE128D627AB48A700C70528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE128D727AB48A700C70528 /* Build configuration list for PBXNativeTarget "HW2-SphericalBesselFunction (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE128D827AB48A700C70528 /* Debug */,
+				2BE128D927AB48A700C70528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE128DA27AB48A700C70528 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE128DB27AB48A700C70528 /* Debug */,
+				2BE128DC27AB48A700C70528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE128DD27AB48A700C70528 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE128DE27AB48A700C70528 /* Debug */,
+				2BE128DF27AB48A700C70528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE1289F27AB48A400C70528 /* Project object */;
+}
